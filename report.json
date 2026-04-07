@@ -1,0 +1,44 @@
+[
+    {
+        "Service": "EC2",
+        "Region": "ap-south-1",
+        "ID": "i-0abc123def456gh78",
+        "Type": "t2.micro",
+        "Cost($/mo)": 8
+    },
+    {
+        "Service": "EC2",
+        "Region": "us-east-1",
+        "ID": "i-0xyz987uvw654rst32",
+        "Type": "t3.micro",
+        "Cost($/mo)": 9
+    },
+    {
+        "Service": "RDS",
+        "Region": "ap-south-1",
+        "ID": "dev-db-instance",
+        "Type": "db.t3.micro",
+        "Cost($/mo)": 15
+    },
+    {
+        "Service": "RDS",
+        "Region": "us-east-1",
+        "ID": "prod-db-instance",
+        "Type": "db.t3.small",
+        "Cost($/mo)": 25
+    },
+    {
+        "Service": "S3",
+        "Region": "global",
+        "ID": "my-app-assets-bucket",
+        "Type": "Standard",
+        "Cost($/mo)": 0.05
+    },
+    {
+        "Service": "S3",
+        "Region": "global",
+        "ID": "logs-backup-bucket",
+        "Type": "Standard",
+        "Cost($/mo)": 0.12
+    }
+]
